@@ -23,7 +23,7 @@ In summary, the ViewBuilder package simplifies UI development by providing easy-
 
 ## Example
 
-For Better Expericnce go to `/example` folder.
+For Better Experience go to `/example` folder.
  
  
  
