@@ -45,6 +45,7 @@ import 'package:view_builder/view_builder.dart';
 
  ## Usage
  
+ ```dart
     ViewBuilder(
         length: 10
         loadingStatus: loadingStatus,
@@ -57,6 +58,4 @@ import 'package:view_builder/view_builder.dart';
     ),
 
  ```
- 
-
- 
+  
