@@ -1,7 +1,6 @@
 library view_builder;
 
 import 'package:flutter/material.dart';
-
 import 'loading.dart';
 
 enum LoadingStatus {
