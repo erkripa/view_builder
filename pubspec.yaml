@@ -1,7 +1,7 @@
 name: view_builder
 description: ViewBuilder package simplifies UI development by providing easy-to-use tools for handling server errors,onRefresh, displaying empty data messages, and creating loading animations. With this package, you can streamline your UI development process and deliver a more polished and responsive user experience.
 version: 0.0.1
-homepage:
+homepage: https://github.com/erkripa/view_builder.git
 
 environment:
   sdk: '>=2.19.3 <3.0.0'
