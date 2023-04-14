@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:view_builder/view_builder.dart';
+import 'package:view_builder/vb_constant.dart';
 
 class HomePageController extends GetxController {
   static HomePageController get find => Get.find();

@@ -1,7 +1,6 @@
 import 'package:example/controllers/home_page_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:view_builder/loading.dart';
 import 'package:view_builder/view_builder.dart';
 
 class HomePage extends StatelessWidget {
@@ -24,6 +23,7 @@ class HomePage extends StatelessWidget {
                   length: controller.length,
                   loadingStatus: controller.loadingStatus.value,
                   scrollController: controller.scrollController,
+                  isMoreLoading: controller.isMoreLoading,
                   emptyDataText: "No Data!",
                   onRefresh: controller.onRefresh,
                   itemBuilder: (context, index) {
@@ -31,8 +31,6 @@ class HomePage extends StatelessWidget {
                   },
                 ),
               ),
-              if (controller.isMoreLoading == LoadingStatus.loading)
-                const LoadingWidget()
             ],
           );
         },
