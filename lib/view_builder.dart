@@ -4,8 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:view_builder/vb_constant.dart';
 import 'loading.dart';
 
-class ViewBuilder extends StatelessWidget {
-  const ViewBuilder({
+class ItemViewBuilder extends StatelessWidget {
+  const ItemViewBuilder({
     Key? key,
     this.length = 0,
     this.emptyDataText,

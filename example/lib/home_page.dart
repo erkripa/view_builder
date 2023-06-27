@@ -19,7 +19,7 @@ class HomePage extends StatelessWidget {
           return Column(
             children: [
               Expanded(
-                child: ViewBuilder(
+                child: ItemViewBuilder(
                   length: controller.length,
                   loadingStatus: controller.loadingStatus.value,
                   scrollController: controller.scrollController,
